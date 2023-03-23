@@ -7,7 +7,7 @@ import numpy as np
 from faker import Faker
 
 # Define the number of patients to generate
-num_patients = 100000 # as many rows as you need, baby
+num_patients = 100000 # as many rows as you need for good sample size for ML model
 
 # Generate random patient demographics
 genders = ['M', 'F']

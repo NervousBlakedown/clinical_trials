@@ -1,4 +1,4 @@
-# Identify potential participants for clinical trials using data mining techniques
+# Identify potential participants for clinical trials using decision tree classifier
 
 # Imports
 import pandas as pd
@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
 # Load the patient data
-patient_data = pd.read_csv("C:\\Users\\blake\\iCloudDrive\\github\\datasets\\medical\\sample_patient_data.csv")
+patient_data = pd.read_csv("sample_patient_data.csv")
 
 # Append 'eligible_for_trial' column into dataframe
 # patient_data['eligible_for_trial'] = pd.Series() # blank value

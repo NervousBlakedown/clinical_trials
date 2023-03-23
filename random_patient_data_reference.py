@@ -74,4 +74,5 @@ cols = cols[:-2] + [cols[-1]] + [cols[-2]]
 patient_data = patient_data[cols]
 
 # Save the data to a CSV file (default path is working directory)
-patient_data.to_csv("C:\\Users\\blake\\iCloudDrive\\github\\datasets\\medical\\sample_patient_data.csv", index=False)
+# Note: in a real world example, there are several options for data output.
+patient_data.to_csv("sample_patient_data.csv", index=False)
